@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #7c9c37;
+}
+
+hr {
+    display: inline-block;
+    width: 74%;
+    margin: 36px 13%;
+    border-radius: 48%;
+    height: 3px;
+    background-color: #eaeaea;
+    border: 0;
+}
+
+/* header css */
+#header {
+    background-color: #222222;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: 2px solid #7c9c37;
+}
+
+.menu {
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu-toggle {
+    display: none;
+}
+.bar {
+    display: none;
+}
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+    border-right: 2px solid white;
+    padding-right: 20px;
+  }
+
+  .menu ul li a:hover {
+      color: #7c9c37;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .menu ul li:last-child {
+      margin-right: 0;
+      border-right: 0;
+      padding-right: 0;
+  }
+.hero-bg img {
+    width: 100%;
+    height: 550px;
+}
+
+/* Fullwidth CSS */
+
+.fullwidth h1{
+    text-align: center;
+    font-size: 42px;
+    margin-top: 36px;
+}
+
+/* Portfolio CSS */
+
+.portfolio {
+    width: 96%;
+    margin: 0 auto;
+}
+.service-card {
+    display: flex;
+    justify-content: space-between;
+}
+.service-card1 {
+    width: 23%;
+    background-color: #f0f0f0;
+}
+.service-card1 img {
+    width: 100%;
+}
+.service-card1 h3 {
+    color: #7c9c37;
+    padding: 10px 20px;
+}
+.service-card1 p {
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+/* Gellary CSS */
+
+.gellary {
+    width: 96%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.headings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e2e2e2;
+    align-items: center;
+    margin-bottom: 5%;
+    padding-bottom: 5px;
+  }
+
+.gellary-1 {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    width: 46%;
+    display: flex;
+    margin-bottom: 4%;
+    justify-content: space-between;
+}
+.card-text {
+    width: 68%;
+}
+
+.card-text h4 {
+    color: #7c9c37;
+}
+
+.card-text p {
+    margin-top: 7%;
+    padding-right: 19%;
+}
+/* .gellary-2 CSS */
+
+.gellary-2 {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.g-card {
+    width: 47%;
+}
+.g-card img {
+    width: 100%;
+}
+
+.g-card .btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #7c9c37;
+}
+
+.g-card h4 {
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+.g-card span {
+    font-weight: bold;
+}
+
+.angle {
+    display: inline-block;
+    font-size: 9px;
+    padding-left: 21px;
+  }
+
+/* Footer CSS */
+
+#footer {
+    background-color: #222222;
+
+}
+
+.main-footer {
+    border-bottom: 1px solid  #666666;;
+}
+.footer {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 3% 0;
+    color: #666666;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    margin-bottom: 4%;
+}
+
+.about {
+    width: 20%;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.about .angle-2 {
+    padding-left: 3%;
+}
+
+.link {
+    width: 22%;
+    padding-left: 27px;
+}
+.link ul li {
+    border-bottom: 2px  solid #3a3a3a;
+    list-style: none;
+    padding-bottom: 3px;
+    margin-top: 2px;
+}
+
+.link ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #7c9c37;
+}
+
+.angle-2 {
+    display: inline-block;
+    font-size: 12px;
+    padding-right: 3%;
+}
+
+.blog {
+    width: 22%;
+}
+
+.blog h4 {
+    text-transform: capitalize;
+}
+
+.blog p {
+    margin-top: 3px;
+    line-height: 20px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.blog-item-1{
+    margin-top: 4%;
+}
+
+.blog .angle-2 {
+    padding-left: 3%;  
+}
+
+.contact-us {
+    width: 23%;
+}
+
+.contact-us h4 {
+    font-weight: 100;
+}
+
+.contact-us h4 a {
+    color: #7c9c37;
+    text-decoration: none;
+}
+
+.contact-us .form {
+    margin-top: 15%;
+}
+
+.contact-us input {
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    padding: 7px;
+    text-transform: capitalize;
+    background-color: #353535;
+    border: #ffffff;
+    color: #807d77;
+}
+
+.contact-us .submit {
+    width: 28%;
+    font-size: 17px;
+    padding: 7px;
+    text-transform: uppercase;
+    background-color: #7c9c37;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer-widget {
+    width: 96%;
+    margin: 0 auto;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between;
+    color: #666666;
+}
+
+/* Responsive CSS */
+
